@@ -12,10 +12,12 @@ public class Sieve {
 		int x = 0;
 		boolean alreadyUsed = false;
 		boolean primeNum = false;
+		
 		for (int i = 1; i <=40; i++)
 		{
 			num[i-1] = i;
 		}
+		
 		for (int i=1; i <=40; i++)
 		{
 			for (int p = 2; p<i; p++)
